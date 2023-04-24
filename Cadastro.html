@@ -1,0 +1,223 @@
+<!Doctype html>
+<html lang="pt-br">
+	<title> Nerd Comics | Cadastro </title>
+		<meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+         <link rel="stylesheet" href="/CSS/Cadastro.css">
+<body>
+
+    <header>
+
+        <img class="logo" src="/Imagem/logo.png" width="220px">
+        
+      
+        <div class="buscar-p">   
+            <input type="text" name="" class="buscar-txt" placeholder="O que você procura?"/>     
+                
+            
+            <a class="buscar-btn">  <!-- BOTAO PESQUISA BARRA -->
+               <i class="far fa-search">
+
+                <img src="/Imagem/lupa.png" alt="lupa"  width="35px"  height="35px">    </i>
+                
+             
+              </a> 
+             </div>
+    
+             <div class="botao">       
+              <button id="bt1"><a href="/Login.html">
+         
+             <img src="/Imagem/login.png" alt="login"  width="13px"    height="13px ">
+             Login   |  </a></button>
+
+        
+                 <button id="bt2"><a href="Cadastro.html"> Cadastra-se |   </a></button>
+
+ 
+                <button id="bt3"><a href="Notificacoes.html">
+                         
+
+                    <img src="/Imagem/bell.png" alt="Notificações"  width="15px"    height="15px" >    <!-- FALTA COLOCAR A IMAGEM NOTIFICAÇOES  -->
+                                     
+                
+                 </a>    
+                 </button>   
+
+                 <!--   -->
+
+                
+              
+                 </div>   
+
+
+
+                  <div class="faixa"></div>
+
+
+
+   
+                 </header>
+
+        <div class="menu-pp">
+        <div class="menu-p">
+
+   
+           <nav>
+       
+              <ul id="ul-principal">
+
+             <li class="li-p"><a href="index.html">HOME</a> </li>
+
+             <li class="li-p">
+             <a href="javascript://" class="bt1">
+             COMICS
+              <img src="Imagem\seta branca.png" alt="seta menu" width="12px"    height="12px">
+             </a>
+             <ul class="ul-comics"> 
+             <li> <a href="">Marvel</a> </li>
+             <li> <a href="">DC</a> </li>
+             <li> <a href="">Star Wars</a> </li>
+             <!--   <li> <a href="">link 4</a> </li> -->
+             </ul>
+             </li>
+
+    
+               <li class="li-p">
+              <a href="javascript://" class="bt2">
+
+               MANGAS
+              <img src="Imagem\seta branca.png" alt="seta menu" width="12px"    height="12px">
+              </a>
+
+               <ul class="ul-mangas"> 
+                <li> <a href="">Dragon Ball</a> </li>
+                <li> <a href="">Death Note</a> </li>
+                <li> <a href="">One Piece</a> </li>
+                <!--<li> <a href="">link 4</a> </li> -->
+             </ul>
+
+             </li>
+
+             <li class="li-p"> 
+              <a href="Biblioteca.html" class="bt3">
+              MINHA BIBLIOTECA
+          
+            </a>
+             </li>
+
+
+             </ul>
+
+             </nav>
+
+               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+               <script type="text/javascript" src="JS/myscript.js" defer></script>
+
+             </div>
+
+
+
+            <main>  </main>
+
+            <br>
+            <br>
+            <br>
+
+            <form class="cardForm">
+
+
+              <p class="cadastro-p">Criar conta</p>
+              <br>
+              <br>
+
+ 
+            
+            
+            <div class="botao-l">
+              <p class="cadastro-t">Dados pessoais</p>
+              <br>
+              <label for="inputNome" >Primeiro Nome:</label>
+            <input type="text" name="" id="inputNome" placeholder="Digite o seu primeiro nome" required>
+            
+            <label for="inputSobrenome">Sobrenome:</label>
+            <input type="text" name="" id="inputSobrenome" placeholder="Digite o seu segundo nome" required>
+
+          </div>
+            
+            <label for="inputCpf">CPF:</label>
+            <input type="number" name="" id="inputCpf" placeholder="Digite o seu CPF" required>
+
+            <label for="inputData">Data de Nascimento:</label>
+            <input type="date" name="inputData" id="inputData"   class="inputNome"required>
+
+           
+              <fieldset>
+              <div class="genero">
+              <label for="genero">Gênero:</label>
+              <input type="radio" name="genero"  value="masculino" required>  <span>Masculino.</span>
+              <input type="radio" name="genero"  value="feminino" required>  <span>Feminino.</span>
+              <input type="radio" name="genero"  value="Outro" required>  <span>Outro(a).</span>
+              <input type="radio" name="genero"  value="Outro" required>  <span>Prefiro não declarar.</span>
+
+
+
+             </div>
+            </fieldset>
+
+             
+
+            <!-- 
+           
+
+           <input type="radio" id="feminino"  name="genero"  value="feminino" required>
+            <label for="feminino">Feminino</label>
+         
+            <input type="radio" id="outro"  name="genero"  value="outro" required> 
+
+            <label for="outro">Outro</label> 
+
+          </div>
+
+-->
+            
+            <p class="cadastro-t">Dados de login</p>
+            <br>
+            <label for="inputEndereco">Digite um e-mail:</label>
+            <input type="text" name="" id="inputEndereco" placeholder="Informe seu e-mail" required>
+            
+            <label for="inputEnderecoC">Confirme o e-mail:</label>
+            <input type="text" name="" id="inputEnderecoC" placeholder="Confirme seu e-mail" required>
+            
+            <label for="inputSenha">Digite uma senha:</label>
+            <input type="text" type="number" name="" id="InputSenha" placeholder="Crie uma senha de 8 caracteres" required>
+            
+
+            <label for="inputSenha">Confirme a senha:</label>
+            <input type="text" type="number" name="" id="InputSenha" placeholder="Confirme a sua senha de 8 caracteres" required>
+
+            
+            <div class="button-p">
+            <button class="btLimpar">Limpar</button>
+            <button class="btCadastrar">Cadastrar</button>
+          </div>
+          
+            
+            
+          
+            </form>
+            
+            
+
+ 
+
+
+<footer>
+
+    <p> Nerd Comics Histórias em Quadrinhos - &copy;  2022    </p>
+
+</footer>
+
+</body>
+
+</html>
